@@ -81,6 +81,7 @@ section > h2 {
 .a {
     color: var(--primary-color);
     transition: var(--transition);
+    padding: 2px;
 }
 
 a:hover {
