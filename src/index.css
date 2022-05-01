@@ -18,6 +18,8 @@
     --white-color: #eee;
     --light-color:#844fb3;
 
+    --transition: all 400ms ease;
+
     --lg-container-width: 75%;
     --md-container-width: 86%;
     --ms-container-width: 90%;
@@ -36,4 +38,102 @@ body {
     background: var(--bg-variant-color);
     color: var(--white-color);
     line-height: 1.7;
+}
+
+/* ########## GENERAL STYLES ########## */
+
+.container {
+    width: var(--lg-container-width);
+    margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-weight: 500;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+section {
+    margin-top: 8rem;
+}
+
+section > h2,
+section > h5 {
+    text-align: center;
+    color: var(--light-color);
+}
+
+section > h2 {
+    color: var(--primary-color);
+    margin-bottom: 3rem;
+}
+
+.text-light {
+    color: var(--light-color);
+}
+
+.a {
+    color: var(--primary-color);
+    transition: var(--transition);
+}
+
+a:hover {
+    color: var(--white-color);
+}
+
+.btn {
+    width: max-content;
+    display: inline-block;
+    color: var(--primary-color);
+    padding: 0.75rem 1.2;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    border: 1px solid var(--primary-color);
+    transition: var(--transition);
+}
+
+.btn:hover {
+    background: var(--white-color);
+    color: var(--bg-color);
+    border-color: transparent;
+}
+
+.btn-primary {
+    background: var(--primary-color);
+    color: var(--bg-color);
+}
+
+img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+/*########MEDIA QUERIES (MEDIUM DEVICE) ############*/
+
+@media screen and (max-width: 1024px) {
+    .container{
+        width: var(--md-container-width);
+    }
+    section {
+        margin-top: 6rem;
+    }
+}
+
+/*########MEDIA QUERIES (SMALL DEVICE) ############*/
+
+@media screen and (max-width: 600px) {
+    .container{
+        width: var(--ms-container-width);
+    }
+    section > h2 {
+        margin-bottom: 2rem;
+    }
 }
