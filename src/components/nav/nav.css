@@ -29,7 +29,7 @@ nav a:hover {
 }
 
 nav a.active {
-    background: var(--bg-color);
+    background: var(--white-color);
     color: var(--primary-color);
     transition: var(--transition);
 }

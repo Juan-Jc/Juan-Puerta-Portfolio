@@ -11,10 +11,10 @@
 }
 
 :root {
-    --bg-color: #ccc;
+    --bg-color: rgb(66, 66, 66);
     --bg-variant-color: #2a2a2a;
     --primary-color: #6c15b7;
-    --primary-color-variant:#1f1f38;
+    --primary-color-variant:#341557;
     --white-color: #eee;
     --light-color:#844fb3;
 
@@ -108,7 +108,7 @@ a:hover {
 
 .btn-primary {
     background: var(--primary-color);
-    color: var(--bg-color);
+    color: var(--white-color);
 }
 
 img {
