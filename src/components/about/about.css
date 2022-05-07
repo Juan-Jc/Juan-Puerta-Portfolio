@@ -69,9 +69,9 @@
 /*###### MEDIA QUERIES (MEDIUM DEVICES) #####*/
 
 @media screen and (max-width:1024px) {
-    .about__container{
+    .about__container {
         grid-template-columns: 1fr;
-        gap: 0;
+        gap:0;
     }
 
     .about__me {
@@ -86,14 +86,14 @@
 
 /*###### MEDIA QUERIES (SMALL DEVICES) #####*/
 
-@media screen and(max-width:600px) {
+@media screen and (max-width:600px) {
  .about__me {
      width: 65%;
      margin: 0 auto 3rem;
  }   
 
  .about__cards {
-     grid-template-columns: 1fr 1fr;
+     grid-template-columns: 1fr;
      gap: 1rem;
  }
 

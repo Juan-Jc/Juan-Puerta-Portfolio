@@ -31,6 +31,35 @@ footer a {
     margin-bottom: 4rem;
 }
 
+.footer__socials a {
+    background: var(--bg-variant-color);
+    color: var(--white-color);
+    padding: 0.8rem;
+    border-radius: 0.7rem;
+    display:flex;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+
+.footer__socials a:hover {
+    background: var(--white-color);
+    color: var(--primary-color);
+}
+
+.footer__copyright {
+    margin-bottom: 4rem;
+    color: var(--white-color);
+}
 
 
+/*##### MEDIA QUERIES (SMALL DEVICES) #####*/
+@media screen and (max-width: 600px) {
+    .permalinks {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
 
+    .footer__socials{
+        margin-bottom: 2.6rem;
+    }
+}
