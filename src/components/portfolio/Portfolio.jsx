@@ -2,6 +2,16 @@ import React from 'react'
 import './portfolio.css'
 import IMG from '../../assets/color-palet.png'
 
+const data = [
+  {
+  id: 1,
+  title: 'This is a Portfolio Item Title',
+  img: IMG,
+  code: 'https://github.com',
+  demo: 'https://github.com',
+  },
+]
+
 const Portfolio = () => {
   return (
     <section id='portfolio'>
@@ -9,78 +19,24 @@ const Portfolio = () => {
       <h2>Portfolio</h2>
 
       <div className="container portfolio__container">
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
-            <img src={IMG} alt='page name image' />
-          </div>
-          <h3>This is a portfolio item title</h3>
-          <div className="portfolio__item-cta">
-          <a href="https://github.com" className='btn' target='_blank'>Github Code</a>
-
-          <a href="https://github.com" className="btn btn-primary" target='_blank'>Live Demo</a>
-
-          </div>
-        </article>
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
-            <img src={IMG} alt='page name image' />
-          </div>
-          <h3>This is a portfolio item title</h3>
-          <div className="portfolio__item-cta">
-          <a href="https://github.com" className='btn' target='_blank'>Github Code</a>
-          
-          <a href="https://github.com" className="btn btn-primary" target='_blank'>Live Demo</a>
-
-          </div>
-        </article>
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
-            <img src={IMG} alt='page name image' />
-          </div>
-          <h3>This is a portfolio item title</h3>
-          <div className="portfolio__item-cta">
-          <a href="https://github.com" className='btn' target='_blank'>Github Code</a>
-          
-          <a href="https://github.com" className="btn btn-primary" target='_blank'>Live Demo</a>
-
-          </div>
-        </article>
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
-            <img src={IMG} alt='page name image' />
-          </div>
-          <h3>This is a portfolio item title</h3>
-          <div className="portfolio__item-cta">
-          <a href="https://github.com" className='btn' target='_blank'>Github Code</a>
-          
-          <a href="https://github.com" className="btn btn-primary" target='_blank'>Live Demo</a>
-
-          </div>
-        </article>
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
-            <img src={IMG} alt='page name image' />
-          </div>
-          <h3>This is a portfolio item title</h3>
-          <div className="portfolio__item-cta">
-          <a href="https://github.com" className='btn' target='_blank'>Github Code</a>
-          
-          <a href="https://github.com" className="btn btn-primary" target='_blank'>Live Demo</a>
-
-          </div>
-        </article>
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
-            <img src={IMG} alt='page name image' />
-          </div>
-          <h3>This is a portfolio item title</h3>
-          <div className="portfolio__item-cta">
-          <a href="https://github.com" className='btn' target='_blank'>Github Code</a>
-          
-          <a href="https://github.com" className="btn btn-primary" target='_blank'>Live Demo</a>
-
-          </div>
-        </article>
+        {
+          data.map(({id, title, img, code, demo}) => 
+            {
+              return (
+                <article key={id} className="portfolio__item" >
+                  <div className="portfolio__item-image">
+                    <img src={img} alt={title} />
+                  </div>
+                  <h3>{title}</h3>
+                  <div className="portfolio__item-cta">
+                    <a href={code} className='btn' target='_blank'>Github Code</a>
+                    <a href={demo} className="btn btn-primary" target='_blank'>Live Demo</a>
+                  </div>
+                </article>
+              )
+            }
+          )
+        }
       </div>
     </section>
   )
