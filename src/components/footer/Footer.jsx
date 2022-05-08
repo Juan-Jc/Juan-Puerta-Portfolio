@@ -20,10 +20,10 @@ const Footer = () => {
       </ul>
 
       <div className="footer__socials">
-        <a href="https://instagram.com"><FiInstagram className='footer__socials-icon' /></a>
-        <a href="https://youtube.com"><FiYoutube className='footer__socials-icon' /></a>
-        <a href="https://twitter.com"><IoLogoTwitter className='footer__socials-icon' /></a>
-        <a href="https://twitch.com"><BsTwitch className='footer__socials-icon' /></a>
+        <a href="https://instagram.com/jotacemusic/"><FiInstagram className='footer__socials-icon' /></a>
+        <a href="https://www.youtube.com/channel/UChP9Z4FpkxvAkJdC-N7F2iw"><FiYoutube className='footer__socials-icon' /></a>
+        <a href="https://twitter.com/juanjc94"><IoLogoTwitter className='footer__socials-icon' /></a>
+        <a href="https://www.twitch.tv/jotacemusic"><BsTwitch className='footer__socials-icon' /></a>
       </div>
       <div className="footer__copyright">
         <small> &copy; Jotace. All rights reserved.</small>

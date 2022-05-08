@@ -22,19 +22,19 @@ const Contacs = () => {
           <BsLinkedin className='contact__option-icon' />
           <h4>LinkedIn</h4>
           <h5>LinkedIn Profile</h5>
-          <a href="https://linkedin.com/profile" target='_blank'>Look my LinkedIn</a>
+          <a href="https://linkedin.com/in/JuanCamiloPuerta" target='_blank'>Look my LinkedIn</a>
         </article>
         <article className="contact__option">
           <BsGithub className='contact__option-icon' />
           <h4>GitHub</h4>
           <h5>GitHub Profile</h5>
-          <a href="https://Github.com/profile" target='_blank'>Look my Github</a>
+          <a href="https://github.com/Juan-Jc" target='_blank'>Look my Github</a>
         </article>
         <article className="contact__option">
           <BsInstagram className='contact__option-icon' />
           <h4>Instagram</h4>
           <h5>Instagram Profile</h5>
-          <a href="https://instagram.com/profile" target='_blank'>Send a message Ig</a>
+          <a href="https://instagram.com/jotacemusic/" target='_blank'>Send a message Ig</a>
         </article>
         </div>
 
