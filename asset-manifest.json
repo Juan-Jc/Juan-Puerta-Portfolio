@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Juan-Puerta-Portfolio/static/css/main.8571f8c8.css",
+    "main.js": "/Juan-Puerta-Portfolio/static/js/main.d675726e.js",
+    "static/media/me-about.jpg": "/Juan-Puerta-Portfolio/static/media/me-about.7739a2eeba50bb087baf.jpg",
+    "static/media/portfolio-jc.png": "/Juan-Puerta-Portfolio/static/media/portfolio-jc.d8e6bade26424067ebb6.png",
+    "static/media/testimonios-section.png": "/Juan-Puerta-Portfolio/static/media/testimonios-section.f6cff000a263086b68ed.png",
+    "static/media/Contador-clicks.png": "/Juan-Puerta-Portfolio/static/media/Contador-clicks.bc8f54ea4314e36e5481.png",
+    "static/media/batatabit.png": "/Juan-Puerta-Portfolio/static/media/batatabit.fd2853dfd039f3292f81.png",
+    "static/media/Curriculum.pdf": "/Juan-Puerta-Portfolio/static/media/Curriculum.3f91c9ba9c528e448fcb.pdf",
+    "static/media/calculator.png": "/Juan-Puerta-Portfolio/static/media/calculator.26715b09db689a2dc78a.png",
+    "static/media/animationland.png": "/Juan-Puerta-Portfolio/static/media/animationland.ded5ad5ce4b87faba802.png",
+    "static/media/todolist.png": "/Juan-Puerta-Portfolio/static/media/todolist.a946d6e3ad96c0f9427e.png",
+    "index.html": "/Juan-Puerta-Portfolio/index.html",
+    "main.8571f8c8.css.map": "/Juan-Puerta-Portfolio/static/css/main.8571f8c8.css.map",
+    "main.d675726e.js.map": "/Juan-Puerta-Portfolio/static/js/main.d675726e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8571f8c8.css",
+    "static/js/main.d675726e.js"
+  ]
+}
